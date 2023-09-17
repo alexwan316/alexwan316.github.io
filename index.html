@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -5,9 +6,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>粤菜食谱</title>
-    <meta name="description" content="源于本人兴趣爱好" />
+    <title>中式菜谱知识图谱(作者：牛广林, 北航计算机)</title>
+    <meta name="description" content="中式菜谱可视化系统，能够显示菜品关联信息并提供搜索功能" />
     <meta name="keywords" content="" />
+    <meta name="author" content="" />
     <link rel="shortcut icon" href="">
     <script>
         var _hmt = _hmt || [];
@@ -283,7 +285,7 @@ body {
 
 <body>
     <!-- 标题 -->
-    <h1 style="color: #fff;font-size: 32px;margin-bottom: 10px;margin-top: 10px; text-align: left;margin-left: 40px">Canton Morning Tea</h1>
+    <h1 style="color: #fff;font-size: 32px;margin-bottom: 10px;margin-top: 10px; text-align: left;margin-left: 40px">AI Food Time(爱食光) mini版</h1>
 
     <!-- 定义div存放关系图 -->
     <!-- NOTE: 父元素采用相对定位，里面的元素采用绝对定位 -->
@@ -358,6 +360,12 @@ $(document).ready(function() {
         $('#indicator').append("<div><span style='background-color:" + colors[i] + "'></span>" + names[i] +"</div>")
     }
 
+    var help = ['小助手', '1.开始如果没有节点和边的网状可视化显示，刷新便可出现', '2.鼠标放置在任意节点上，出现和此节点相关的所有节点及之间的关系，右侧自动呈现菜品相关信息', '3.搜索框中输入菜品名称，呈现此菜品所有相关节点，并且此时鼠标位于某个节点上方时移开鼠标能够保持知识图谱当前状态', '4.模式切换按钮可切换对节点的不同可视化表示，Circles为点，Texts为文字', '5.左侧不同颜色的条形表示不同类型的节点，On/Off切换开关可打开或关闭同样类型所有节点的可视化显示'];
+    $('#tips').append("<div><span>" + help[0] + "</span></div>")
+    for (var i = 1; i < help.length; i++) {
+        // 选中indicator，每一种都append一个div，就是前面的小色块
+        $('#tips').append("<div>" + help[i] +"</div>")
+    }
 
     // 定义D3的simulation是如何展示出来的
     var simulation = d3.forceSimulation()
@@ -370,7 +378,7 @@ $(document).ready(function() {
     // 存之后生成的关系图数据
     var graph;
 
-    d3.json("https://raw.githubusercontent.com/alexwan316/Food/blob/main/yuecaidata.json", function(error, data) {
+    d3.json("https://raw.githubusercontent.com/ngl567/CookBook-KG/master/visualization/vizdata_mimini_aglin.json", function(error, data) {
         if (error) throw error;
 
         graph = data;
@@ -995,7 +1003,7 @@ $(document).ready(function() {
                 //    avatar_ID = avatar_ID + '0'
                 //}
 	    if ('主料' in info[name]){
-		    $('#info').append('<p>' + '<img src="https://raw.githubusercontent.com/alexwan316/Food/tree/main/photos/' + name + '.jpeg" />' + '</p>');
+		    $('#info').append('<p>' + '<img src="https://raw.githubusercontent.com/ngl567/CookBook-KG/master/visualization/recipe_photo/' + name + '.jpg" />' + '</p>');
 	    }
             }
 
@@ -1186,7 +1194,7 @@ $(document).ready(function() {
                 //}
 
 	    if ('主料' in info[name]){
-                $('#info').append('<p>' + '<img src="https://raw.githubusercontent.com/alexwan316/Food/tree/main/photos/' + name + '.jpeg" />' + '</p>');
+                $('#info').append('<p>' + '<img src="https://raw.githubusercontent.com/ngl567/CookBook-KG/master/visualization/recipe_photo/' + name + '.jpg" />' + '</p>');
 	    }
 
             }
@@ -1415,7 +1423,7 @@ $(document).ready(function() {
     // 结点信息框
     var info;
 
-    d3.json("https://github.com/alexwan316/Food/blob/main/yuecai.json", function(error, data){
+    d3.json("https://raw.githubusercontent.com/ngl567/CookBook-KG/master/visualization/entities_item_mimini.json", function(error, data){
         info = data;
     })
 
