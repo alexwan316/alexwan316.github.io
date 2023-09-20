@@ -1,0 +1,666 @@
+{
+    "links": [
+        {
+            "relation": "选材",
+            "source": "糯米鸡",
+            "target": "鸡翅根",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "糯米鸡",
+            "target": "糯米",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "糯米鸡",
+            "target": "冬菇",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "糯米鸡",
+            "target": "荷叶",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "糯米鸡",
+            "target": "咸蛋黄",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "糯米鸡",
+            "target": "腊肉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "糯米鸡",
+            "target": "叉烧肉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "蛋挞",
+            "target": "蛋挞皮",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "蛋挞",
+            "target": "牛奶",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "蛋挞",
+            "target": "蛋黄",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "蛋挞",
+            "target": "淡奶油",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "蛋挞",
+            "target": "细砂糖",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "蛋挞",
+            "target": "低筋面粉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "叉烧包",
+            "target": "面粉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "叉烧包",
+            "target": "叉烧肉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "叉烧包",
+            "target": "蚝油",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "叉烧包",
+            "target": "白糖",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "叉烧包",
+            "target": "生抽",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "皮蛋瘦肉粥",
+            "target": "大米",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "皮蛋瘦肉粥",
+            "target": "皮蛋",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "皮蛋瘦肉粥",
+            "target": "盐",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "皮蛋瘦肉粥",
+            "target": "瘦肉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "水晶虾饺",
+            "target": "澄粉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "水晶虾饺",
+            "target": "草虾",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "水晶虾饺",
+            "target": "猪肥膘",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "水晶虾饺",
+            "target": "沸水",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "水晶虾饺",
+            "target": "盐",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "煎饺",
+            "target": "饺子",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "煎饺",
+            "target": "油",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "烧卖",
+            "target": "胡萝卜",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "烧卖",
+            "target": "冬菇",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "烧卖",
+            "target": "蚝油",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "烧卖",
+            "target": "生抽",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "牛肉鲜虾肠粉",
+            "target": "大米粉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "牛肉鲜虾肠粉",
+            "target": "粘米粉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "牛肉鲜虾肠粉",
+            "target": "绿豆淀粉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "牛肉鲜虾肠粉",
+            "target": "小麦淀粉",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "牛肉鲜虾肠粉",
+            "target": "清水",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "牛肉鲜虾肠粉",
+            "target": "盐",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "牛肉鲜虾肠粉",
+            "target": "蚝油",
+            "value": 3
+        },
+        {
+            "relation": "选材",
+            "source": "牛肉鲜虾肠粉",
+            "target": "胡椒粉",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "1-荤蒸类",
+            "target": "糯米鸡",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "2-甜点",
+            "target": "蛋挞",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "3-蒸笼类",
+            "target": "烧卖",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "3-蒸笼类",
+            "target": "叉烧包",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "3-蒸笼类",
+            "target": "水晶虾饺",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "4-肠粉",
+            "target": "牛肉鲜虾肠粉",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "5-粥",
+            "target": "皮蛋瘦肉粥",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "6-煎炸类",
+            "target": "煎饺",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "class": "精品特色菜",
+            "group": "1",
+            "id": "糯米鸡",
+            "size": "10"
+        },
+        {
+            "class": "精品特色菜",
+            "group": "1",
+            "id": "蛋挞",
+            "size": "10"
+        },
+        {
+            "class": "精品特色菜",
+            "group": "1",
+            "id": "烧卖",
+            "size": "10"
+        },
+        {
+            "class": "精品特色菜",
+            "group": "1",
+            "id": "叉烧包",
+            "size": "10"
+        },
+        {
+            "class": "精品特色菜",
+            "group": "1",
+            "id": "水晶虾饺",
+            "size": "10"
+        },
+        {
+            "class": "精品特色菜",
+            "group": "1",
+            "id": "牛肉鲜虾肠粉",
+            "size": "10"
+        },
+        {
+            "class": "精品特色菜",
+            "group": "1",
+            "id": "皮蛋瘦肉粥",
+            "size": "10"
+        },
+        {
+            "class": "精品特色菜",
+            "group": "1",
+            "id": "煎饺",
+            "size": "10"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "鸡翅根",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "糯米",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "冬菇",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "咸蛋黄",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "腊肉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "叉烧肉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "荷叶",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "蛋挞皮",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "牛奶",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "蛋黄",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "蚝油",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "葱",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "淡奶油",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "细砂糖",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "糖",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "蛋清",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "味精",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "低筋面粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "面粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "叉烧肉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "淀粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "胡萝卜",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "葱姜水",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "牛肉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "白糖",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "生抽",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "大米",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "草鱼",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "皮蛋",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "猪肥膘",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "瘦肉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "花椒",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "辣椒",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "盐",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "澄粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "草虾",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "沸水",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "饺子",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "油",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "绿豆淀粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "香菇",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "小麦淀粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "大米粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "粘米粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "胡椒粉",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "蛋黄",
+            "size": "8"
+        },
+        {
+            "class": "原料",
+            "group": "2",
+            "id": "清水",
+            "size": "8"
+        },
+        {
+            "class": "菜品大类",
+            "group": "0",
+            "id": "1-荤蒸类",
+            "size": "16"
+        },
+        {
+            "class": "菜品大类",
+            "group": "0",
+            "id": "2-甜点",
+            "size": "16"
+        },
+        {
+            "class": "菜品大类",
+            "group": "0",
+            "id": "3-蒸笼类",
+            "size": "16"
+        },
+        {
+            "class": "菜品大类",
+            "group": "0",
+            "id": "4-肠粉",
+            "size": "16"
+        },
+        {
+            "class": "菜品大类",
+            "group": "0",
+            "id": "5-粥",
+            "size": "16"
+        },
+        {
+            "class": "菜品大类",
+            "group": "0",
+            "id": "6-煎炸类",
+            "size": "16"
+        }
+    ]
+}
